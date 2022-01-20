@@ -45,10 +45,14 @@ header{
     display: flex;
     flex-direction: column;
     align-items: center;
-    background: url(sources/side-view-of-cute-cat-sitting-next-to-adopt-me-sign.jpg);
+    justify-content: center;
+    background: url(sources/couchage-pour-chat-design-modified.jpg);
     background-size: cover;
-    padding: 100 px
-
+    padding: 100 px;
+    height: 50vh;
+    color: black;
+    font-weight: bold;
+    font-size: 30px;
 }
 
 @media screen and (max-width:680px){
