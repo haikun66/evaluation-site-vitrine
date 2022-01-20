@@ -1,3 +1,9 @@
+<<<<<<< HEAD
+*{
+    padding: 0;
+    margin: 0;
+}
+=======
 @import url('https://fonts.googleapis.com/css2? family= Source+Code+Pro & display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Source+Code+Pro&display=swap');
 
@@ -62,5 +68,9 @@ header button{
         margin-bottom: 20px;
     }
 }
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> css
+>>>>>>> 1a964639552bb1a800f96c7799df83e52cfd2b94
