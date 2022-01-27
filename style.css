@@ -6,6 +6,8 @@ body{
     font-family: 'Montserrat', sans-serif;
     padding: 0;
     margin: 0;
+    display: flex;
+    flex-direction: column;
 }
 ::-webkit-scrollbar {
     width: 10px;
@@ -101,6 +103,44 @@ img{
     width: 100%;
     height: 100%;
 }
+footer{
+    flex-shrink: 0;
+    border-top: 1px solid #000;
+    background: #D3D3D3;
+    width: 100%;
+    color: #333;
+}
+.content-footer{
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    font-size: 20px;
+    padding: 50px 0 100px;
+}
+
+.footer-contact h3,
+.footer-hours h3,
+.footer-help h3{
+    font-size: 25px;
+    padding-bottom: 20px;
+}
+
+.list-contact,
+.list-hours,
+.list-help{
+    list-style-type: none;
+}
+.list-help{
+    text-decoration: none;
+    color: #333;
+}
+.list-help:hover{
+    
+}
+
+
 
 @media screen and (max-width:680px){
     nav .link{
