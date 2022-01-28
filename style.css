@@ -104,27 +104,41 @@ img{
     height: 100%;
 }
 footer{
+    margin-top: 50px;
     flex-shrink: 0;
-    border-top: 1px solid #000;
+    border-top: 5px solid #555;
     background: #D3D3D3;
     width: 100%;
     color: #333;
 }
-.content-footer{
-    width: 1200px;
+.content-footer {
+    max-width: 1000px;
     margin: 0 auto;
     display: flex;
     justify-content: center;
     align-items: flex-start;
-    font-size: 20px;
+    font-size: 16px;
     padding: 50px 0 100px;
+}
+
+.bloc {
+    flex-basis: 20%;
+    margin: 0 30px;
 }
 
 .footer-contact h3,
 .footer-hours h3,
 .footer-help h3{
-    font-size: 25px;
+    font-size: 22px;
     padding-bottom: 20px;
+}
+.footer-hours h3,
+.footer-help h3{
+    padding-left: 41px;
+}
+
+.footer-contact p{
+    padding: 5px 0;
 }
 
 .list-contact,
@@ -132,13 +146,21 @@ footer{
 .list-help{
     list-style-type: none;
 }
-.list-help{
+
+ /*Help*/
+
+.list-help li{
+    padding: 2px 0;
+}
+
+.list-help li a{
     text-decoration: none;
-    color: #333;
+    color: #555;
 }
-.list-help:hover{
-    
+.list-help li a:hover{
+    color: #000;
 }
+
 
 
 
